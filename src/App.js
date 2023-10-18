@@ -1,13 +1,13 @@
-import React from 'react'
-import './App.css';
+import React from "react";
+import "./App.css";
+import FileUpoad from "./components/FileUpoad";
 
 function App() {
-  return (
-    <React.Fragment className="App">
-      <header className="App-header">
-        
-      </header>
-    </React.Fragment>
+  
+  return(
+    <>
+      <FileUpoad/>
+    </>
   );
 }
 
